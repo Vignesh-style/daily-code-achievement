@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Scaler :: Given a 2D Matrix A of dimensions N*N, we need to return the sum of all possible submatrices.
  * */
 
-public class SumOfAllMatrices {
+public class SumOfAllSubMatrices {
 
     public int computeSum(ArrayList<ArrayList<Integer>> A) {
 
