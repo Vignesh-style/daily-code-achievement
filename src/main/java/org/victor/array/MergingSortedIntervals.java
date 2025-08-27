@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class MergingSortedIntervals {
 
-    public ArrayList<ArrayList<Integer>> merge(ArrayList<ArrayList<Integer>> A) {
+    public static ArrayList<ArrayList<Integer>> merge(ArrayList<ArrayList<Integer>> A) {
 
         ArrayList<ArrayList<Integer>> ret = new ArrayList<>();
 
