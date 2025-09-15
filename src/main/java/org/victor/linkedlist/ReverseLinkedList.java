@@ -12,9 +12,9 @@ public class ReverseLinkedList {
         if (A == null)
             return null;
 
-        ListNode nextNode = A.next;
+        ListNode nextN = A.next;
 
-        if (nextNode == null)
+        if (nextN == null)
             return A;
 
         ListNode currN = A;
@@ -28,10 +28,10 @@ public class ReverseLinkedList {
             // System.out.println(currN);
             // System.out.println(nextNode);
 
-            nextNode = currN.next;
+            nextN = currN.next;
             currN.next = prevN;
             prevN = currN;
-            currN = nextNode;
+            currN = nextN;
 
             // System.out.println(prevN);
             // System.out.println(currN);
