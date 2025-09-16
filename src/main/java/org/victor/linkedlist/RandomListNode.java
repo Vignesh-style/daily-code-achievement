@@ -6,4 +6,13 @@ public class RandomListNode {
       RandomListNode next, random;
 
       RandomListNode(int x) { this.label = x; }
+
+    @Override
+    public String toString() {
+        return "RandomListNode{" +
+                "label=" + label +
+                ", next=" + next +
+                ", random=" + random +
+                '}';
+    }
 };
