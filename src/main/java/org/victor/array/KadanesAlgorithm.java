@@ -3,7 +3,7 @@ package org.victor.array;
 import java.util.List;
 
 /**
- * Scaler Problem : : Given an array A of length N, your task is to find the maximum possible sum of any non-empty contiguous subarray.
+ * Scaler Problem : : Given an array A of length N, your task is to find the maximum possible sum of any non-empty subarray.
  * */
 
 public class KadanesAlgorithm {
